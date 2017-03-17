@@ -6,12 +6,12 @@
       google.charts.setOnLoadCallback(drawChart);
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
-          ['Task', 'Hours per Day'],
-          ['PDF',     10],
+          ['Elements', 'content'],
+          ['PDF',     25],
           ['JavaScript',      5],
-          ['HTML',  60],
-          ['Image', 15],
-          ['OTHER',    15]
+          ['HTML',  50],
+          ['Image', 20],
+          ['OTHER',    10]
         ]);
         var options = {
           title: 'OVERVIEW',
@@ -28,13 +28,13 @@
       function drawChart() {
         var data = google.visualization.arrayToDataTable([
           ['ID', 'X', 'Y', 'Occurrences'],
-          ['response code',   80,  167,      130],
+          ['response code',   80,  407,      500],
           ['URI',   79,  136,      140],
-          ['page title',   78,  184,      80],
-          ['External',   72,  278,      230],
+          ['page title',   78,  194,      217],
+          ['External',   72,  80,      83],
           ['H1',   81,  200,      210],
-          ['H2',   72,  170,      100],
-          ['internal',   68,  477,      321]
+          ['H2',   72,  100,      100],
+          ['internal',   68,  477,      417]
         ]);
         var options = {
           colorAxis: {colors: ['yellow', 'red']}
