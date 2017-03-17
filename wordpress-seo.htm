@@ -1,0 +1,255 @@
+<html>
+<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['PDF',     10],
+          ['JavaScript',      5],
+          ['HTML',  60],
+          ['Image', 15],
+          ['OTHER',    15]
+        ]);
+        var options = {
+          title: 'OVERVIEW',
+          is3D: true,
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['ID', 'X', 'Y', 'Occurrences'],
+          ['response code',   80,  167,      130],
+          ['URI',   79,  136,      140],
+          ['page title',   78,  184,      80],
+          ['External',   72,  278,      230],
+          ['H1',   81,  200,      210],
+          ['H2',   72,  170,      100],
+          ['internal',   68,  477,      321]
+        ]);
+        var options = {
+          colorAxis: {colors: ['yellow', 'red']}
+        };
+        var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+<style>
+ table,th, td {
+border-bottom: 1px solid #ddd;
+} th, td {
+border: 1px solid black;
+}th {text-align: left;}table {
+width: 100%;
+}
+th {
+height: 40px;
+}tr:nth-child(even) {background-color: #f2f2f2}
+tr:nth-child(odd) {background-color: #ffe4e1}
+th {
+background-color: #cd5c5c;
+color: white;
+font-size:18;
+font-family:symbol;
+} {
+font-family: "sans-serif";
+}caption {
+caption-side: top;
+} th, td {
+padding: 15px;
+}
+</style>
+</head>
+<body>
+<body style ="background:url(http://www.pptbackgrounds.org/uploads/elegant-blue-white-design-powerpoint-backgrounds.jpg)fixed;background-position:center;">
+ <img src="https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/local_seo-512.png" width="180px" height="180px" align="left"><br>
+<h1> <font color="white" size=6> Website SEO </font> </h1>
+<hr>
+<h3><font color="white" size=4> Report</font> </h3><p>
+   <hr>
+   <marquee direction="left" behavior="alternate" scrollamount="10"><font face="Georgia" color="yelllow"size="6" target="rightframe">OVERVIEW</u></b></font></marquee><p><table style="border:1px dotted black;">
+<tr>
+<td>
+<div id="piechart_3d" style="width: 500px; height: 300px;"></div></td>
+<td><div id="chart_div" style="width: 700px; height: 300px;"></div></td>
+</tr>
+</table>
+<table><caption><font face="Harry Potter" color="#ba55d3"size="6"><b>SEO Report</b></p></font></caption>
+<tr><td></td><td><font color="black" size=4> <b>DETAILS</b></font></td>
+<td><font color="black" size=4> <b>STATUS</b></font></td>
+<td><font color="black" size=4> <b>STATUS CODE</b></font></td>
+<td><font color="black" size=4><b> SUGGESTION<b></font></td>
+</tr>
+<tr>
+<th>Meta description</th>
+<td> The Meta description length of your page is 0 characters. </td>
+<td>Not found</td>
+<td>404</td>
+<td> Most search engines will truncate Meta descriptions to 160 characters.Your primary keywords should appear in your meta-tags to help identify the topic of your webpage to search engines. </td>
+</td>
+</tr>
+<tr>
+<th>Meta keywords</th>
+<td>The Meta keywords length of your page is 0 characters.</td>
+<td>  found</td>
+<td>200</td>
+
+<td>Use ‘-‘(hyphens) to separate keywords in the URLS. For example: <font color="800080" size=3>www.domain.com/this-is-a-good-url.</font> <p style="color:red;">Google Does not accept Meta keywords any more.</p> </td></tr>
+<tr>
+<th>H1 tag</th>
+<td>Your page does not contains H1 headings.</td>
+<td>unavailable</td>
+<td>503</td>
+<td> H1 tags are important to the search engines. Unlike the H1 tag, you may have multiple H2, H3, H4, H5, and H6 sub-headings. These sub-headings as ways of organizing the content on your page for your readers more than for the search engines.
+</tr>
+<tr>
+<th>H2 tags</th>
+<td>Your page contains few H2 headings, many of your headings are duplicate</td>
+<td>ok</td>
+<td>200</td>
+<td>H2 tags are important to the search engines . Unlike the H1 tag, you may have multiple H3, H4, H5, and H6 sub-headings. These sub-headings as ways of organizing the content on your page for your readers more than for the search engines.</td>
+</tr>
+<tr>
+<th>Images alt</th>
+<td>Your webpage has 8 'img' tags and only 7 of them missing the 'alt' attribute</td>
+<td>not good</td>
+<td>200</td>
+<td>It is imp to have .The alt attribute's descriptive information is useful to assist visually impaired customers and search engine crawlers as they navigate the site.</td>
+</tr>
+<tr>
+<th>Directives</th>
+<td>no directives</td>
+<td>Unavailable</td>
+<td>503</td>
+<td>Must have directives to enhance the performance of the site.</td>
+</tr>
+<tr>
+<th>Custom</th>
+<td>No custom</td>
+<td>not found</td>
+<td>404</td>
+<td>Make sure that you have a custom 404 page to handle cases where users enter or mistype urls.</td>
+</tr>
+<tr>
+<th>Internal links</th>
+<td>Total 476 internal links</td>
+<td>ok</td>
+<td>200</td>
+<td>Avoid very long URLs. 
+Avoid keyword stuffed links</td>
+</tr>
+<tr>
+<th>Broken links</th>
+<td>From 301 distinct anchor links analyzed, none of them appears to be broken.</td>
+<td>ok</td>
+<td>200</td>
+<td>Make sure that when you remove part of the URL the link does not lead to a non-valid page. For example if a URL is:  <font color="800080" size=3>http://www.domain.com/products/games/call-of-duty</font> and the user removes the last part, the new URL <font color="800080" size=3> http://www.domain.com/products/games/</font> should display a list of games and not a  <font color="red" size=3> ‘not found page’ </font>.</td></tr>
+<tr>
+<th>External links</th>
+<td>Total 19 external links</td>
+<td>ok</td>
+<td>200</td>
+<td>Avoid very long URLs
+Avoid keyword stuffed links</td>
+</tr>
+<tr>
+<th>SEO friendly URLs</th>
+<td> 150 internal urls found that are not seo friendly.</td>
+<td>not good</td>
+<td>200</td>
+<td>An SEO friendly url must caontain only lower alphabets, numbers, slashes(/), dash(-). Underscores, uppercase Alphabets and special chars (e-g: & ? %) are not seo friendly.</td>
+</tr>
+<tr><th>Respond code</th>
+<td>found</td>
+<td>ok</td>
+<td>200</td>
+<td>HTTP Status codes are three-digit numbers returned by servers that indicate the status of a web element.</td>
+</tr>
+<tr><th>Page title</th>
+<td>Page title is of 26 character </td>
+<td>ok</td>
+<td>200</td>
+<td>  A page title, or title tag, is the main text that describes a web page.  It is the second-most important on-page SEO element (behind your main body content), is the easiest SEO element to edit </td>
+</tr>
+
+<tr><th>robots</th>
+<td>Your site use a "robots.txt" file:  <font color="800080" size=3>http://du.ac.in/robots.txt</font></td>
+<td>not found</td>
+<td>404</td>
+<td>There are a few ways to block search engines from accessing a given domain:
+
+Block with Robots.tx. This tells the engines not to crawl the given URL, but that they may keep the page in the index and display it in results. </td>
+</tr>
+<tr><th>Site map</th>
+<td> We've found no sitemaps files for your website:</td>
+<td>unavailable</td>
+<td>503</td>
+<td>You should have sitemap.The sitemap page should provide easy access to all site pages.
+</tr>
+<tr><th>Favicon</th>
+<td>Your website appears to have a favicon.</td>
+<td>ok</td>
+<td>200</td>
+<td>Create a favourite icon to give your web site a more professional perspective.</td>
+</tr>
+<tr><th>Domain authority</th>
+<td>Domain Authority of your website is only -  <font color="228b22" size=3>57.00</font></td>
+<td>good</td>
+<td>200</td>
+<td> It is good to have domain authority more than  <font color="228b22" size=3>20.</font></td>
+</tr>
+<tr><th>Page authority</th>
+<td> Page Authority of your website is only -  <font color="228b22" size=3>52.50</font></td>
+<td>good</td>
+<td>200</td>
+<td>  It is good to have page authority more than  <font color="228b22" size=3>20.</font></td>
+</tr>
+<tr><th>HTML page size</th>
+<td> Your HTML size is <font color="228b22" size=3> 11.29 Kb </font>and this is under the average web page size of <font color="228b22" size=3> 33 Kb.</font> </td>
+<td>good</td>
+<td>200</td>
+<td>The small size of a web site should help the novice user find information in a fast and easy way without guessing.</td>
+</tr>
+<tr><th>Redirection text</th>
+<td>no there is not </td>
+<td>not good</td>
+<td>200</td>
+<td>Great, a redirect is in place to redirect traffic from your non-preferred domain. your website directs  <font color="800080" size=3>www.du.ac.in</font> and  <font color="800080" size=3>du.ac.in</font> to the same URL.</td>
+</tr>
+<tr><th>HTML Compression/GZIP </th>
+<td>Your page is not using gzip compression on your code. </td>
+<td>unavailable</td>
+<td>503</td>
+<td>Warning! Your HTML size is<font color="228b22" size=3> 79.9 Kb</font> and this is above the average web page size of<font color="228b22" size=3> 33 Kb</font>. 
+This leads to a slower page loading time than average.</td>
+</tr>
+<tr><th>Load time</th>
+<td>load time is  <font color="228b22" size=3>0.0109</font>(s)</td>
+<td>ok</td>
+<td>200</td>
+<td> Avg time-  <font color="228b22" size=3>0.0165 s/kb</font></td> 
+</tr>
+<tr><th>SEO score</th>
+<td>69</td>
+<td>ok</td>
+<td>200</td>
+<td>Make the website seo friendly to increase the score</td>
+</tr>
+<tr><th>Grade</th>
+<td><a href="http://smallseotools.com/website-seo-score-checker/" target="_blank"><img src="http://smallseotools.com/imgs/badge-silver-xs.png" alt="seo checker"/></a></td>
+<td>ok</td>
+<td>302</td>
+<td>Make the website seo friendly to increase the grade</td>
+</tr>
+</table>
+</div>
+</body>
