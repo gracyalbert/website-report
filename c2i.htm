@@ -1,0 +1,247 @@
+<html>
+    <title>jmc seo report</title>
+<head>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['PDF',     10],
+          ['JavaScript',      5],
+          ['HTML',  60],
+          ['Image', 15],
+          ['OTHER',    15]
+        ]);
+        var options = {
+          title: 'OVERVIEW',
+          is3D: true,
+        };
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['ID', 'X', 'Y', 'Occurrences'],
+          ['response code',   80,  167,      130],
+          ['URI',   79,  136,      140],
+          ['page title',   78,  184,      80],
+          ['External',   72,  278,      230],
+          ['H1',   81,  200,      210],
+          ['H2',   72,  170,      100],
+          ['internal',   68,  477,      321]
+        ]);
+        var options = {
+          colorAxis: {colors: ['yellow', 'red']}
+        };
+        var chart = new google.visualization.BubbleChart(document.getElementById('chart_div'));
+        chart.draw(data, options);
+      }
+    </script>
+<style>
+ table,th, td {
+border-bottom: 1px solid #ddd;
+} th, td {
+border: 1px solid black;
+}th {text-align: left;}table {
+width: 100%;
+}
+th {
+height: 40px;
+}tr:nth-child(even) {background-color: #f2f2f2;font-size:18;}
+tr:nth-child(odd) {background-color: #ffe4e1;font-size:18;}
+th {
+background-color: #cd5c5c;
+color: white;
+font-size:20;
+font-family:georgia;
+} {
+font-family: "sans-serif";
+}caption {
+caption-side: top;
+} th, td {
+padding: 15px;
+}
+</style>
+</head>
+<body>
+<body style ="background:url(http://www.hdwallpapery.com/static/images/background-wallpapers-9_39CDbSS.jpg)fixed;background-position:center;">
+ <img src="https://cdn2.iconfinder.com/data/icons/advertisement-marketing/512/local_seo-512.png" width="180px" height="180px" align="left"><br>
+<h1> <font color="white" font="georgia" size=7> Website SEO </font> </h1>
+<hr>
+<h3><font color="white" font="verdana" size=4> Report</font> </h3><p>
+   <hr>
+   <marquee direction="left" behavior="alternate" scrollamount="10"><font face="Georgia" color="ffff00"size="6" target="rightframe">OVERVIEW</u></b></font></marquee><p><table style="border:1px dotted black;">
+<tr>
+<td>
+<div id="piechart_3d" style="width: 600px; height: 300px;"></div></td>
+<td><div id="chart_div" style="width: 670px; height: 300px;"></div></td>
+</tr>
+</table>
+<table><caption><font face="verdana" color="#ba55d3"size="7"><b>SEO Report</b></font></caption>
+<tr><td></td><td><font color="black" size=> <b>DETAILS</b></font></td>
+<td><font color="black" size=5> <b>STATUS</b></font></td>
+<td><font color="black" size=5> <b>STATUS CODE</b></font></td>
+<td><font color="black" size=5><b> SUGGESTION<b></font></td>
+</tr>
+<tr>
+<th>Meta description</th>
+<td> The Meta description length of your page is 15 characters. </td>
+<td>found</td>
+<td>200</td>
+<td> Meta Description Should be greater than 80 and smaller than 160 characters  </td>
+</td>
+</tr>
+<tr>
+<th>Meta keywords</th>
+<td>The Meta keywords length of your page is 0 characters.</td>
+<td> not found</td>
+<td>404</td>
+
+<td>Use ‘-‘(hyphens) to separate keywords in the URLS. For example: <font color="800080" size=3>www.domain.com/this-is-a-good-url.</font> <p style="color:red;">Google Does not accept Meta keywords any more.</p> </td></tr>
+<tr>
+<th>H1 tag</th>
+<td>Your page contains H1 headings. But it is over 70 characters..</td>
+<td>ok</td>
+<td>200</td>
+<td> it should be under 5-70 characters
+</tr>
+<tr>
+<th>H2 tags</th>
+<td>Your page contains 4 H2 headings</td>
+<td>ok</td>
+<td>200</td>
+<td> others tags are H3- 6, H4- 3, H5-2 and H6 is missing </td>
+</tr>
+<tr>
+<th>Images alt</th>
+<td>Your webpage has 137 'img' tags and only 16 of them has the required 'alt' attribute</td>
+<td>ok</td>
+<td>200</td>
+<td>It is imp to have .The alt attribute's descriptive information is useful to assist visually impaired customers and search engine crawlers as they navigate the site.</td>
+</tr>
+<tr>
+<th>Directives</th>
+<td> 472 directives</td>
+<td>available</td>
+<td>200</td>
+<td>Must have directives to enhance the performance of the site.</td>
+</tr>
+<tr>
+<th>Custom</th>
+<td>No custom</td>
+<td>not found</td>
+<td>404</td>
+<td>Make sure that you have a custom 404 page to handle cases where users enter or mistype urls.</td>
+</tr>
+<tr>
+<th>Internal links</th>
+<td>Total 477 internal links</td>
+<td>ok</td>
+<td>200</td>
+<td>Avoid very long URLs. 
+</td>
+</tr>
+<tr>
+<th>Broken links</th>
+<td>From 53 distinct anchor links analyzed, 25 of them appears to be broken.</td>
+<td>ok</td>
+<td>200</td>
+<td>Make sure that when you remove part of the URL the link does not lead to a non-valid page.</td></tr>
+<tr>
+<th>External links</th>
+<td>Total 23 external links</td>
+<td>ok</td>
+<td>200</td>
+<td>Avoid very long URLs
+Avoid keyword stuffed links</td>
+</tr>
+<tr><th>Respond code</th>
+<td>found</td>
+<td>ok</td>
+<td>200</td>
+<td>HTTP Status codes are three-digit numbers returned by servers that indicate the status of a web element.</td>
+</tr>
+<tr><th>Page title</th>
+<td>187 page titles are found </td>
+<td>ok</td>
+<td>200</td>
+<td> In which 142 are duplicate , 2 are over 65 characters , 48 are below 30 characters it should be of 65 charachters </td>
+</tr>
+
+<tr><th>robots</th>
+<td>Your site found use a "robots.txt" file:  <font color="800080" size=3>https://connect2india.com/Air-Pumps-importers</font></td>
+<td> found</td>
+<td>200</td>
+<td>There are a few ways to block search engines from accessing a given domain:
+
+Block with Robots.tx. This tells the engines not to crawl the given URL, but that they may keep the page in the index and display it in results. </td>
+</tr>
+<tr><th>Site map</th>
+<td> We've found 1 sitemaps files for your website:</td>
+<td>available</td>
+<td>200</td>
+<td>You should have sitemap.The sitemap page should provide easy access to all site pages.
+</tr>
+<tr><th>Favicon</th>
+<td>Your website appears to have a favicon.</td>
+<td>ok</td>
+<td>200</td>
+<td>Create a favourite icon to give your web site a more professional perspective.</td>
+</tr>
+<tr><th>Domain authority</th>
+<td>Domain Authority of your website is  -  <font color="228b22" size=3>low</font></td>
+<td>not ok</td>
+<td>200</td>
+<td> It is good to have domain authority more than  <font color="228b22" size=3>20.</font></td>
+</tr>
+<tr><th>Page authority</th>
+<td> Page Authority of your website is only -  <font color="228b22" size=3>low</font></td>
+<td>ok</td>
+<td>200</td>
+<td>  It is good to have page authority more than  <font color="228b22" size=3>20.</font></td>
+</tr>
+<tr><th>HTML page size</th>
+<td> Your HTML size is <font color="228b22" size=3> 55.43 Kb </font>and this is not under the average web page size of <font color="228b22" size=3> 33 Kb.</font> </td>
+<td>ok</td>
+<td>200</td>
+<td>The small size of a web site should help the novice user find information in a fast and easy way without guessing.</td>
+</tr>
+<tr><th>Redirection text</th>
+<td>yes it’s there</td>
+<td>ok</td>
+<td>200</td>
+<td>Great, a redirect is in place to redirect traffic from your non-preferred domain. your website directs  <font color="800080" size=3> www.connect2india.com</font> and  <font color="800080" size=3>connect2india.com</font> to the same URL.</td>
+</tr>
+<tr><th>HTML Compression/GZIP </th>
+<td>Your page is successfully compressed using gzip compression on your code. </td>
+<td>ok</td>
+<td>200</td>
+<td>Your HTML is compressed from  <font color="228b22" size=3>21.68 Kb</font> to <font color="228b22" size=3> 5.97 Kb</font> (74 % size savings). This helps ensure a faster loading web page and improved user experience.</td>
+</tr>
+<tr><th>Load time</th>
+<td>load time is  <font color="228b22" size=3>1.1461 s/kb</font>(s)</td>
+<td>ok</td>
+<td>200</td>
+<td> Avg time-  <font color="228b22" size=3>0.017 s/kb</font></td> 
+</tr>
+<tr><th>SEO score</th>
+<td>58</td>
+<td>ok</td>
+<td>200</td>
+<td>Make the website seo friendly to increase the score</td>
+</tr>
+<tr><th>Grade</th>
+<td><a href="https://smallseotools.com/website-seo-score-checker/" target="_blank"><img src="https://smallseotools.com/imgs/badge-bronze-xs.png" alt="https://smallseotools.com/" /></a></td>
+<td colspan="3">To view the website click ----> <a href="https://connect2india.com/Air-Pumps-importers" >Connect2india</a> </td>
+
+</tr>
+</table>
+</div>
+</body>
